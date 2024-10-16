@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(150deg, #00f84e, #f09433, #f9d423);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 435px;
+    padding: 20px;
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #1a1717;
+}
+
+.form-type {
+    display: flex;
+    justify-content:space-around;
+}
+
+.input-group {
+    margin-bottom: 15px;
+
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="username"],
+.input-group input[type="email"],
+.input-group input[type="tel"],
+.input-group input[type="password"] {
+    width: 215px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-group-gender {
+    margin-bottom: 15px;
+}
+
+
+.input-group-gender p{
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.input-group-gender label {
+    display:inline-block;
+    color: #666;
+    margin-right: 10px;
+}
+
+.cancel-btn {
+    width: 90px;
+    padding: 8px 10px;
+    background-color: #fc4733;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cancel-btn:hover{
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+.submit-btn {
+    width: 90px;
+    padding: 8px 10px;
+    background: linear-gradient(150deg, #00f84e, #f09433, #f9d423);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(150deg, #f9d423, #f09433, #00f84e);
+    transform: scale(1.05);
+}

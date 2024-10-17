@@ -17,40 +17,43 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 500px;
-    height: 435px;
+    width: 750px;
+    height: 390px;
     padding: 20px;
 }
 
 .card-header {
     text-align: center;
-    margin-bottom: 20px;
+    background: linear-gradient(150deg, #f9d423, #ccc, #f9d423);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 5px 0px;
     margin-top: 10px;
-    color: #1a1717;
+    color: #000000;
 }
 
 .form-type {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 .input-group {
     margin-bottom: 15px;
-
+    display:flex;
+    align-items: center;
 }
 
+
 .input-group label {
-    display: block;
+    flex-basis: 45%;
+    text-align: left;;
     font-weight: bold;
     color: #000000;
     margin-bottom: 5px;
 }
 
-.input-group input[type="text"],
-.input-group input[type="username"],
-.input-group input[type="email"],
-.input-group input[type="tel"],
-.input-group input[type="password"] {
+.input-group input{
     width: 215px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -59,7 +62,7 @@ body {
 }
 
 .input-group-gender {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 
@@ -67,11 +70,12 @@ body {
     display: block;
     font-weight: bold;
     color: #000000;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .input-group-gender label {
     display:inline-block;
+    font-weight: bold;
     color: #666;
     margin-right: 10px;
 }
@@ -85,6 +89,8 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
 }
 
 .cancel-btn:hover{
